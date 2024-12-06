@@ -67,6 +67,13 @@ ol.list-style li::marker {
   }
 }
 @media (max-width: 575px) {
+  .logo-text{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .main-menu__logo img{
+    width: 25px !important;
+  }
   .container,
   .container-fluid {
     --bs-gutter-x: 2rem;
@@ -451,7 +458,7 @@ h3,
 
 h4,
 .h4 {
-  font-size: clamp(33px, 2.865vw, 110px); /* 55px */
+  font-size: 34px; /* 55px */
   font-weight: 500;
   line-height: 120%;
 }
@@ -466,6 +473,24 @@ h4,
   .h4 {
     font-size: clamp(24px, 4.219vw, 30px);
   }
+}
+.portfolio-card h5{
+  display: none;
+}
+.portfolio-card{
+  background: #ffffff07;
+  padding: 15px;
+  border: 2px solid #ffffff08;
+}
+.portfolio-card img{
+  width: 100%;
+  object-fit: cover;
+  max-height: 350px;
+}
+.about-2 img{
+  background: #ffffff07;
+    padding: 15px;
+    border: 2px solid #ffffff08;
 }
 @media (max-width: 575px) {
   h4,
@@ -3829,7 +3854,7 @@ header {
 .portfolio{
   position: relative;
   padding:50px 0;
-  background: #003cff10;
+
   
   border-radius: 0px;
   z-index: 1;
