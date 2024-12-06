@@ -400,7 +400,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: clamp(60px, 5.208vw, 200px); /* 100px */
+  font-size: 78px; /* 100px */
   font-weight: 500;
   line-height: 120%;
 }
@@ -646,10 +646,10 @@ Helpers
 
 
 .gradient-stroke-text-medium-black {
-  background: linear-gradient(90deg, #E59C2F 0%, #C33D2D 50%, #72B858 70%, #62A895 100%);
+  background: linear-gradient(90deg, #e5632f 0%, #C33D2D 50%, #72B858 70%, #62A895 100%);
   -webkit-background-clip: text;
   -webkit-text-stroke: 5px transparent;
-  color: #090e1b;
+  color: #000000;
 }
 
 .bg-gradient {
@@ -3194,7 +3194,7 @@ footer .footer-widget ul li a i {
   font-weight: 500;
   color: #fafafa;
   padding: clamp(6px, 0.42vw, 10px) clamp(12px, 0.83vw, 20px);
-  border: 1px solid #fafafa;
+  border: 1px solid #fafafa6e;
   border-radius: 0;
   background: transparent;
 }
@@ -3813,6 +3813,10 @@ header {
   border-radius: 0px;
   z-index: 1;
 }
+
+
+
+
 .contact-area{
   position: relative;
   padding:20px;
@@ -3822,13 +3826,22 @@ header {
   margin-top: 150px;
   z-index: 1;
 }
-.process-content{
+.portfolio{
   position: relative;
-  padding:20px;
-  background: #0077ff10;
-  border: 2px solid #2d69c350;
+  padding:50px 0;
+  background: #003cff10;
+  
   border-radius: 0px;
   z-index: 1;
+  margin-bottom: 150px;
+}
+.about-2{
+  position: relative;
+  padding:20px;
+ 
+  border-radius: 0px;
+  z-index: 1;
+  margin-bottom: 150px;
 }
 
 .service-block img{
@@ -3845,4 +3858,5 @@ header {
   padding-left: 5px;
   font-size: 22px;
 }
+
 
