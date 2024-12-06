@@ -3759,7 +3759,7 @@ iframe {
 header {
   position: fixed;
   width: 100%;
-  background: #000105b2 !important;
+  background: #000105c4 !important;
   z-index: 9999;
       font-family: "Jost", sans-serif;
 }
@@ -3808,10 +3808,8 @@ header {
 }
 .process{
   position: relative;
-  padding:100px 20px;
-  background: #0077ff10;
-  border-top: 5px solid #2d69c350;
-  border-bottom: 5px solid #2d69c350;
+ 
+
   border-radius: 0px;
   z-index: 1;
 }
