@@ -3736,6 +3736,7 @@ footer .footer-widget ul li a i {
   position: relative;
 }
 .contact-area .form-block {
+  display: none !important;
   position: relative;
   padding: clamp(20px, 1.66vw, 40px);
   background-color: #090e1b;
